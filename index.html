@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="//db.onlinewebfonts.com/c/eff97b96c351727f183d2f7dc0e88d67?family=Colored+Crayons" rel="stylesheet"
+        type="text/css" />
+
+    <link rel="stylesheet" href="css/style.css">
+    <title>XO GAME</title>
+</head>
+
+<body class="main">
+    <div>
+        <table>
+            <tr>
+                <td class="cell" id="0"></td>
+                <td class="cell" id="1"></td>
+                <td class="cell" id="2"></td>
+            </tr>
+            <tr>
+                <td class="cell" id="3"></td>
+                <td class="cell" id="4"></td>
+                <td class="cell" id="5"></td>
+            </tr>
+            <tr>
+                <td class="cell" id="6"></td>
+                <td class="cell" id="7"></td>
+                <td class="cell" id="8"></td>
+            </tr>
+        </table>
+
+
+        <p class="title">WELCOME </p>
+
+        <div class="playingOptions">
+            <button id='friend'>Play Against Your Friend</button>
+            <button id="ai">Play Against Computer</button>
+        </div>
+
+        <div class="options">
+            <div class="dots">
+                X
+            </div>
+            <div class="dots2">
+                O
+            </div>
+        </div>
+        <!-- 
+             <div class="tableIamge">
+            <img src="Images/table.svg" alt="table">
+        </div>
+        -->
+       
+        <div class="counter">
+            <h2 class="black-color">Score Counter</h2>
+            <div class="scoreContainer">
+                <div class=" black-color">ME
+                    <p id='yourScore'>0</p>
+                </div>
+                <div class="border"></div>
+                <div class=" black-color">COM
+                    <p id="computerScore">0</p>
+          3      </div>
+
+            </div>
+        </div>
+
+        <div class="winning-message" id="winningMessage">
+            <div data-winning-message-text></div>
+            <button id="restartButton" class="black-color">Restart</button>
+        </div>
+
+    </div>
+
+    <div id="home">
+        <a href="/index.html"> <img src="Images/home_white_24dp.svg" alt="Home"> </a>
+    </div>
+    <div id="reset">
+        <img src="Images/restart_alt_white_24dp.svg"/>
+    </div>
+    <h1 class="aut">PROF. AYMAN ELSHENAWY</h1>
+    <h1 class="aut2">TA/ GAHDA ADEL</h1>
+  <!--
+  <audio id="fail" src="s1.mp3" preload="auto"></audio>
+  -->  
+  <audio id="pup1" src="s1.mp3" preload="auto"></audio>
+  <audio id="am" src="s.mp3" ></audio>
+  <audio id="fail" src="p1.mp3" preload="auto"></audio>
+    <audio id="drow" src="c.mp3" preload="auto"></audio>
+    <script src="javascript/jquery.slim.min.js"></script>
+    <script src="javascript/index.js"></script>
+</body>
+
+</html>
