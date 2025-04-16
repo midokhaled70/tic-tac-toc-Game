@@ -79,8 +79,8 @@ The game uses the **Minimax algorithm** for unbeatable AI performance. It evalua
 
 ## 👥 Credits
 
-- **Developed by:** Prof. Ahmed Khaled 
-- **Assisted by:** pof Ayman
+- **Developed by:** Ahmed Khaled 
+- **Assisted by:**  Ayman
 
 ---
 
