@@ -1,6 +1,4 @@
-Here's a `README.md` file tailored to your Tic-Tac-Toe (XO Game) project:
 
----
 
 # 🎮 XO GAME (Tic-Tac-Toe)
 
@@ -81,10 +79,4 @@ The game uses the **Minimax algorithm** for unbeatable AI performance. It evalua
 
 - **Developed by:** Ahmed Khaled 
 - **Assisted by:**  Ayman
-
----
-
-
-
-Let me know if you want a markdown file to download or you want to host this as a GitHub project with a better landing preview!
 
